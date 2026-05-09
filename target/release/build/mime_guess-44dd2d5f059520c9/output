@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/root/full/fullpo/target/release/build/mime_guess-44dd2d5f059520c9/out/mime_types_generated.rs
