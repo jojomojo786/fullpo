@@ -3,7 +3,7 @@ use actix_web::{get, App, HttpServer, Result};
 
 #[get("/")]
 async fn index() -> Result<NamedFile> {
-    Ok(NamedFile::open("index.html")?)
+    Ok(NamedFile::open("templates/index.html")?)
 }
 
 #[actix_web::main]
